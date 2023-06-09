@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Parcel Sandbox</title>
+    <meta charset="UTF-8" />
+  </head>
+
+  <body>
+    <div id="app" class="container">
+      <h1 style="">CASH REGISTER MANAGER</h1>
+      <p>
+        Enter the Bill amount and cash given by the customer and know the
+        minimum number of notes to return
+      </p>
+
+      <label>AMOUNT BILL:</label>
+      <input id="bill-amount" type="number" />
+
+      <div>
+        <label>CASH GIVEN: </label>
+        <input id="given-amount" type="number" />
+      </div>
+
+      <button id="check-button">CHECK</button>
+      <p id="error-msg"></p>
+
+      <table id="change-table">
+        <caption>
+          Return change
+        </caption>
+        <tr>
+          <th>no of notes :</th>
+          <td class="no-of-notes"></td>
+          <td class="no-of-notes"></td>
+          <td class="no-of-notes"></td>
+          <td class="no-of-notes"></td>
+          <td class="no-of-notes"></td>
+          <td class="no-of-notes"></td>
+          <td class="no-of-notes"></td>
+          <td class="no-of-notes"></td>
+        </tr>
+
+        <tr>
+          <th>Notes :</th>
+          <td>500</td>
+          <td>200</td>
+          <td>100</td>
+          <td>50</td>
+          <td>20</td>
+          <td>10</td>
+          <td>5</td>
+          <td>1</td>
+        </tr>
+      </table>
+    </div>
+
+    <script src="src/index.js"></script>
+  </body>
+</html>
